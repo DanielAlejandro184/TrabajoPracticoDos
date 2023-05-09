@@ -56,3 +56,90 @@ nav a{
     transform: scale(1.1);
 }
 
+/* Nav derecho */
+
+.navder{
+    background-color: #D6BDA6;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 2.5em;
+}
+
+.searchicon{
+    height: 1.4375em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.bagicon{
+    height: 2.6em;
+    margin-left: 1em;
+    margin-right: 1em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.notificacion{
+    border: 0.0625em solid black;
+    background-color: #F1eadc;
+    border-radius: 50%;
+    line-height: 1.5em;
+    width: 1.56em;
+    text-align: center;
+    position: relative;
+    bottom: 0.78em;
+    right: 4em;
+    font-size: 0.5625em;
+    cursor: pointer;
+}
+
+.bagynoti{
+    display: flex;
+    align-items: center;
+    transition: .5s;
+}
+
+.linea{
+    border-right: 0.15625em solid #BCA692;
+    height: 1.875em;
+    margin-top: 0.3125em; 
+}
+
+.botonsignin{
+    margin-right: 2em;
+    margin-left: 2.8em;
+    text-align: center;
+}
+
+.botonsignup{
+    border: 0.18em solid #0B0B0B;
+    background-color: #D6BDA6;
+    width: 6.425em;
+    height: 2.25em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9683em;
+    font-weight: bold;
+    margin-right: 6.85em;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.navder a{
+    transition: 0.5s;
+}
+
+.navder a:hover{
+    text-shadow: 0.1875em 0.25em 0.1875em grey;
+    transform: scale(1.1);
+}
+
+.botonsignup:hover{
+    transform: scale(1.1);
+    box-shadow: 0.1875em 0.25em 0.1875em grey;    
+}
+
+.searchicon:hover , .bagynoti:hover{
+    transform: scale(1.1);
+}
