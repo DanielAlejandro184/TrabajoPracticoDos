@@ -199,3 +199,67 @@ section{
     box-shadow: 0.1875em 0.25em 0.1875em grey;
     margin-left: 9.375em;
 }
+
+/* Div derecho */
+
+.mainder{
+    width: 40%;
+}
+
+.mainder{
+    display: flex;
+    background-color: #D6BDA6;
+    justify-content: space-evenly;  
+}
+
+.imgmujer{   
+    height:63em;
+    position: relative;
+    right:16.95em;   
+}
+
+.cambios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18.5em;
+    margin-right: 2.5em;
+}
+
+.cambios small{
+    font-size: 0.53em;
+    line-height: 6.3em;
+}
+
+.bordepadre{
+    border: 0.0625em solid #6F6156;
+    background-color: #6F6156;
+    border-radius: 1em;
+    height: 12.3em;
+    width: 0.35em;
+    bottom:12.3em;
+    position: relative;
+    left: 1em; 
+    cursor: pointer;
+    outline: none;
+}
+
+.bordeunobtn , .bordedosbtn , .bordetresbtn{
+    border: 0.0625em solid #6F6156;
+    background-color: #6F6156;
+    border-radius: 1em;
+    height: 4.1em;
+    width: 0.35em;
+    bottom:24.6em;
+    position: relative;
+    left: 1em; 
+    cursor: pointer;
+    outline: none;
+}
+
+.bordeunobtn:focus , .bordedosbtn:focus , .bordetresbtn:focus{
+    border: 0.0625em solid #28231E;
+    background-color: #28231E;
+}
+
+/* Fin del Css */
