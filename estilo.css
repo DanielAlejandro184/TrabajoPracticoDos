@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap'); /* Logo y elegant esence collection  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); /* Links del nav*/
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&display=swap'); /* Encabezado */
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap'); /* Boton compra */
+
+/* Universal y clases globales*/
+
+*{
+    margin: 0em;
+    padding: 0em;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 0.9683em;
+    color: #0B0B0B;
+    font-weight: bold;
+}
