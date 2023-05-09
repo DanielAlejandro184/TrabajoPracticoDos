@@ -143,3 +143,59 @@ nav a{
 .searchicon:hover , .bagynoti:hover{
     transform: scale(1.1);
 }
+
+/* Aqui comienza el main */
+
+/* Main */
+
+section{
+    display: flex;
+}
+
+/* Div izq */
+
+.mainizq{ 
+    width: 60%;
+}
+
+.encabezado{
+    color: #0B0B0B;
+    font-size: 7em;
+    font-family: 'Frank Ruhl Libre', serif;
+    padding-top: 2.5em;
+    padding-bottom: 0.580em;
+    line-height: 0.96em;
+    letter-spacing: -0.073em;
+    width: 6.4em;
+    margin-left: 0.811em;
+}
+
+.compra{
+    font-size: 1.2em;
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    border: 0.1875em solid #0B0B0B;
+    color: #0B0B0B;
+    margin-left: 5em;
+    background-color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.parrafo{  
+    color: #635959;
+    padding-top: 10em;
+    width: 20em;
+    letter-spacing: -0.055em;
+    font-size: 1.25em;
+    margin-left: 4.8em;
+}
+
+.compra:hover{
+    box-shadow: 0.1875em 0.25em 0.1875em grey;
+    margin-left: 9.375em;
+}
